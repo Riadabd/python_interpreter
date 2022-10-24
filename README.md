@@ -54,25 +54,35 @@ L6 = L1 + L2 + L3               print(L6)
 L7 = L6[:3]                     print(L7)
 L8 = L6[:]                      print(L8)
 
-L9 = [1, 2, 3, 4, 5, 6, 7, 8, 9]                                                        print(L9)
+L9 = [1, 2, 3, 4, 5, 6, 7, 8, 9]                                                        
+print(L9)
 
-c1 = [for x in L9 if (x > 4)]			                                                print(c1)
+c1 = [for x in L9 if (x > 4)]			                                                
+print(c1)
 
-c2 = [for x in L9 if (5 == 2)]		                                                print(c2)
+c2 = [for x in L9 if (5 == 2)]		                                                
+print(c2)
 
-c3 = [for x in L9 if (5 > x)]			                                                print(c3)
+c3 = [for x in L9 if (5 > x)]			                                                
+print(c3)
 
-c4 = [for x in L9 if (x == x)]		                                                print(c4)
+c4 = [for x in L9 if (x == x)]		                                                
+print(c4)
 
-c5 = [for x in L9 if not (x == 4)]		                                            print(c5)
+c5 = [for x in L9 if not (x == 4)]		                                            
+print(c5)
 
-c6 = [for x in L9 if (x != 4)]		                                                print(c6)
+c6 = [for x in L9 if (x != 4)]		                                                
+print(c6)
 
-c7 = [for y in L9 if (x != 4)]		                                                print(c7)
+c7 = [for y in L9 if (x != 4)]		                                                
+print(c7)
 
-c8 = [for x in L9 if (7 != y)]		                                                print(c8)
+c8 = [for x in L9 if (7 != y)]		                                               
+print(c8)
 
-c10 = [for x in L9 if ((((x > 2) and (7 > x)) or (x == 9)) and (x > 5))] 		    print(c10)
+c10 = [for x in L9 if ((((x > 2) and (7 > x)) or (x == 9)) and (x > 5))] 		  
+print(c10)
 
 c11 = [for x in L9 if ((((x > 2) and (7 > x)) or not(x == 9)) and (x > 5))]
 print(c11)
